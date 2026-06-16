@@ -14,6 +14,42 @@ body{
     padding: 60px 20px;
 }
 
+.hero{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    min-height: 100px;
+}
+.hero-text h1{
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.hero-text p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero-image{
+    width: 200px;
+    max-width: 100%;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.skills div{
+    background-color: darksalmon;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
 header{
     width: 100%;
     background-color: bisque;
@@ -60,7 +96,14 @@ footer{
     background-color: darksalmon;
     color: azure;
     text-align: center;
-    padding: 20px;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer p{
+    margin: 5px 0;
 }
 
 section{
